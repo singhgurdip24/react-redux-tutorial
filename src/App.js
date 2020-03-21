@@ -10,18 +10,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <img 
-  src={logo} 
-  className={
-    "App-logo" + 
-    (this.props.rotating ? "":" App-logo-paused")
-  } 
-  alt="logo" 
-  onClick={
-    this.props.rotating ? 
-      this.props.stopAction : this.props.startAction
-  }
-/>
+          <img
+            src={logo}
+            className={
+              "App-logo" +
+              (this.props.rotating ? "":" App-logo-paused")
+            } 
+            alt="logo" 
+            onClick={
+              this.props.rotating ?
+                this.props.stopAction : this.props.startAction
+            }
+          />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
